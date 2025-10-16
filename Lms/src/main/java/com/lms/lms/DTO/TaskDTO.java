@@ -8,7 +8,7 @@ import java.util.List;
 @Data
 @Entity
 @Table(name = "tasks")
-public class TaskEntity {
+public class TaskDTO {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
